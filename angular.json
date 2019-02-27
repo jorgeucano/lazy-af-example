@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "lazyModules": ["src/app/mylazy/mylazy.module"],
             "outputPath": "dist/example-lazy-af",
             "index": "src/index.html",
             "main": "src/main.ts",

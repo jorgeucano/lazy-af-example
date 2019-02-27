@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'example-lazy-af';
+  load: boolean = false;
+
+  constructor() {
+    console.log('app.component contructor');
+  }
 }
